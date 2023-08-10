@@ -1,7 +1,7 @@
-# GestionUtilisateur
-this project give the users (add , edit , delete) the users from list .
+# Project MEAN STACK Master GestionUtilisateur
+This project gives the users (add, edit, delete) the users from the list.
 
-team : BOUYAHYI Manal , EL OTMANY Chahid , M'RABETI Achraf .
+team: BOUYAHYI Manal, EL OTMANY Chahid, M'RABETI Achraf.
 
 # Install nodejs
 
@@ -13,8 +13,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Stack 
 
-Angular ,
-Mongo db ,
+Angular,
+Mongo DB,
 Bootstrap,
 Nodejs 
 
