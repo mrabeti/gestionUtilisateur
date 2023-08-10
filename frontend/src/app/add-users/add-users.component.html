@@ -1,0 +1,52 @@
+<div class="row ">
+    <div class="col-md-12 text-center bg-success   ">
+        <h2><u>Add Users</u></h2>
+    </div>
+    <div class="row ">
+        <form [formGroup]="addUsers" novalidate class="form">
+            <div class="row">
+                <div class="col-md-2"> </div>
+                <div class="col-md-2">First Name </div>
+                <div class="col-md-4"><input type="text" 
+                    formControlName="first_name"
+                    class="form-control"/></div>
+            </div>
+            <div class="col-md-2"> </div>
+            <div class="row">
+                <div class="col-md-2"> </div>
+                <div class="col-md-2">Laste Name </div>
+                <div class="col-md-4"><input type="text" 
+                    formControlName="last_name"
+                    class="form-control"/></div>
+            </div>
+            <div class="col-md-2"> </div>
+
+            <div class="row">
+                <div class="col-md-2"> </div>
+                <div class="col-md-2">Email </div>
+                <div class="col-md-4"><input type="email" 
+                    formControlName="email"
+                    class="form-control"/></div>
+            </div>
+            <div class="col-md-2"> </div>
+
+            <div class="row">
+                <div class="col-md-2"> </div>
+                <div class="col-md-2">Matricule </div>
+                <div class="col-md-4"><input type="text" 
+                    formControlName="matricule"
+                    class="form-control"/></div>
+            </div>
+            <div class="col-md-2"> </div>
+
+            <div class="row">
+                <div class="col-md-2"> </div>
+                <div class="col-md-9">
+                    <button type="submit" (click)="onSubmit()" class="btn btn-outline-success btn-lg btn-block" >Add users</button> 
+                </div>
+            </div>
+            <div class="col-md-2"> </div>
+        </form>
+    </div>
+
+</div>

@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="display-4 text-center">
+        <h2><u>Users List</u></h2>
+    </div>
+</div>
+<div class="row">
+    <table class="table table-striped table-dark">
+        <thead class="thead">
+        <tr>
+            <th>First Name</th>        
+            <th>Last Name</th>          
+            <th>Email</th>
+            <th>Matricule</th>
+            <th>Edit  Delete</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr *ngFor="let user of users">
+                    <td>{{user.first_name}}</td>
+                    <td>{{user.last_name}}</td>
+                    <td>{{user.email}}</td>
+                    <td>{{user.matricule}}</td>
+                    <td> <a href="editUsers/{{user._id}}" class="btn btn-success">EDIT</a>
+                         | <button (click)="delUsers(user)" class="btn btn-danger">DELETE</button></td>
+                </tr>
+            </tbody>
+    </table>
+
+</div>
